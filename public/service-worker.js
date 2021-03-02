@@ -3,7 +3,7 @@ const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
   "/",
   "/index.html",  
-  "/db.js",
+//   "/db.js",
   "/styles.css",
   "/manifest.webmanifest",
   "/icons/icon-192x192.png",
@@ -36,7 +36,7 @@ self.addEventListener("install", function(evt) {
 // activate
 self.addEventListener("activate", function(evt) {
   evt.waitUntil(
-    caches.keys().then(keyList => {
+    caches.keys().then(keyList => { // Delete all other caches that may exist.
       return Promise.all(
         keyList.map(key => {
           if (key !== CACHE_NAME && key !== DATA_CACHE_NAME) {
