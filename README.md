@@ -12,7 +12,7 @@ This is a coding bootcamp homework assignment to update existing code for a Budg
 ## Usage
 The [Budget Tracker](https://tranquil-wildwood-98870.herokuapp.com/) application runs in the browser.  The application can be installed on a user's desktop or added to a user's home screen on a mobile device.  
 
-Enter a new expense or deposit.  The app will display the budget balance along with a chart of all transactions.  Transactions can be entered whether user is online or offline.
+Enter a new expense or deposit.  The app will display the budget balance along with a chart of all transactions.  Transactions can be entered whether a user is online or offline.
 
 ![Budget-Tracker Demo](./public/assets/budget-tracker-demo.gif)
 
